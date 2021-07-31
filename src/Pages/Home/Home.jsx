@@ -1,14 +1,14 @@
 import { Aside } from "../../components/Aside/Aside"
 import { Feed } from "../../components/Feed/Feed"
 import { Profile } from "../../components/Profile/Profile"
-import { ConteinerContent } from "./HomeStyle"
+import { HomeContent } from "./HomeStyle"
 
-export function Conteiner() {
+export function Home() {
   return (
-    <ConteinerContent>
+    <HomeContent>
       <Profile/>
       <Feed />
       <Aside/>
-    </ConteinerContent>
+    </HomeContent>
   )
 }

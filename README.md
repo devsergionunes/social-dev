@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Social Dev
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align='center'>
+  <img src="github/versao-desktop.gif"></img>
+  <p>Versão Desktop</p>
+</div>
+<div align='center' >
+  <img src="github/versao-mobile.gif" width="500"></img>
+  <p>Versão Mobile</p>
+</div>
 
-## Available Scripts
+# Informaçoes:
 
-In the project directory, you can run:
+## Funcionalidades:
 
-### `npm start`
+- Like nas publicações
+- Posta uma nova publicação
+- Carrega os dados da api fake do mirage.js
+- Dados como datas entre outros, devidamente formatodos.
+<hr>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tecnologias:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### React:
 
-### `npm test`
+- Biblioteca utilizada para a criação da interfaçe.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### styled-Components:
 
-### `npm run build`
+- Toda parte de estilo da aplicação vem dessa incrivel biblioteca de css-in-js.
+- Metodologia de estilizações globais usando variaveis css e unidade de medida REM.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Miragejs:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Integração com essa Fake Api para realiza requisiçoes http sem back-end.
+- Post e Get realizado apartir de sua funcionalidade de interceptação de rotas.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Axios:
 
-### `npm run eject`
+- Biblioteca usada nas requisições http.
+- Escolhida por conta da sua funcionalidade de criar uma url padrão, que seria baseURL e pela sua faciliade de manipula dados.
+<hr>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Style:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<pre>
+  variaveis css:
+    --blue: #6f3ff7;
+    --text-title: #363f5f;
+    --title-primery: #39a6ef;
+    --shape: #fff;
+    --text-body: #555;
+    --background: #f0f2f5;
+</pre>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Links:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- <a href='https://github.com/facebook/react'>React</a>
+- <a href='https://github.com/styled-components/styled-components'>Styled-Components</a>
+- <a href='https://miragejs.com/'>Miragejs</a>
+- <a href='https://axios-http.com/docs/intro'>Axios</a>
 
-## Learn More
+<hr>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usar a template:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+clone o projeto:
 
-### Code Splitting
+<pre>
+  git clone https://github.com/devsergionunes/social-dev.git
+</pre>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Iniciar aplicação:
 
-### Analyzing the Bundle Size
+<pre>
+// instala as dependencias
+ npm install 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ // executar a aplicação com webpack-dev-server
+  npm start
+</pre>

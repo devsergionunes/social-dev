@@ -1,6 +1,6 @@
 import Styled from 'styled-components'
 
-export const ConteinerContent = Styled.div`
+export const HomeContent = Styled.div`
   width: 100%;
   display: grid;
   grid-template-columns: 3fr 6fr 3.5fr;
